@@ -159,7 +159,7 @@
 
             // determine loading.finished actions
             opts.loading.finished = opts.loading.finished || function() {
-                opts.loading.msg.fadeOut('normal');
+                opts.loading.msg.fadeOut(10);
             };
 
             // callback loading
