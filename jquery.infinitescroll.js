@@ -159,6 +159,7 @@
 
             // determine loading.finished actions
             opts.loading.finished = opts.loading.finished || function() {
+                $(opts.navSelector).show();
                 opts.loading.msg.fadeOut(10);
             };
 
